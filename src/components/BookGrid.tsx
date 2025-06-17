@@ -3,7 +3,7 @@
 import React from 'react';
 import { BookCard } from '@/components/BookCard';
 import { Book } from '@/lib/types';
-import { BookOpen, Search, Sparkles, TrendingUp } from 'lucide-react';
+import { BookOpen, Search, Sparkles } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 interface BookGridProps {
@@ -143,7 +143,7 @@ export function BookGrid({
       {searchQuery && (
         <div className="text-center bg-white rounded-xl p-6 shadow-sm border">
           <div className="flex items-center justify-center gap-2 mb-2">
-            <TrendingUp className="w-5 h-5 text-green-500" />
+            <Search className="w-5 h-5 text-green-500" />
             <span className="text-lg font-semibold text-gray-900">
               Found {totalItems > 0 ? totalItems.toLocaleString() : books.length} books
             </span>

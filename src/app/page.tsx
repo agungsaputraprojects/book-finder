@@ -12,8 +12,7 @@ import {
   BookOpen, 
   ArrowLeft, 
   Search, 
-  Sparkles, 
-  TrendingUp,
+  Sparkles,
   Star,
   Users,
   Globe
